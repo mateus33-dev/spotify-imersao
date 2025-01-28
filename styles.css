@@ -166,5 +166,45 @@ body {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
 
+.disclainer-premium {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #101926, #2bd3fd);
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+
+.disclainer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclainer-premium .disclainer-premium__title {
+    color: #fff;
+    text-decoration: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclainer-premium .disclainer-premium__subtitle {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.disclainer-premium button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
